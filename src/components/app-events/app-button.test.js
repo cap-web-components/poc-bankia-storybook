@@ -1,11 +1,11 @@
-import { AppEvents } from './app-events';
+import { AppButton } from './app-button';
 
 describe('AppEvents', () => {
 
   let fixture;
 
   beforeEach(async () => {
-    fixture = new AppEvents();
+    fixture = new AppButton();
     document.body.appendChild(fixture);
     await fixture.updateComplete;
     fixture.dispatchEvent = jest.fn();
