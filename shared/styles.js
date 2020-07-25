@@ -52,20 +52,4 @@ export default css`
     padding: var(--spacing-1x) var(--spacing-2x);
     border-radius: var(--spacing-1x);
   }
-  input, button {
-    font-size: 1rem;
-    box-sizing: border-box;
-    text-align: center;
-    border-radius: var(--spacing-1x);
-    padding: var(--spacing-2x) var(--spacing-3x);
-  }
-  input {
-    border: 1px solid var(--grey-400);
-  }
-  button {
-    background: var(--primary-color);
-    color: white;
-    font-weight: bold;
-    border: none;
-  }
 `;

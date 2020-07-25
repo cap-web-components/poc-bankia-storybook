@@ -3,8 +3,8 @@ import { create } from '@storybook/theming/create';
 export default create({
   base: 'light',
 
-  colorPrimary: '#7DD4E8',
-  colorSecondary: '#395D63',
+  colorPrimary: '#B9C800',
+  colorSecondary: '#64A000',
 
   // UI
   appBg: 'white',
@@ -22,8 +22,8 @@ export default create({
 
   // Toolbar default and active colors
   barTextColor: '#212121',
-  barSelectedColor: '#395D63',
-  barBg: '#7DD4E8',
+  barSelectedColor: '#64A000',
+  barBg: '#B9C800',
 
   // Form colors
   inputBg: 'white',
@@ -33,5 +33,5 @@ export default create({
 
   brandTitle: 'Cap Catalog',
   brandUrl: 'https://github.com/mmirca/cap-web-components',
-  brandImage: '/assets/cap-cli.svg',
+  brandImage: '/assets/logo-bankia.svg',
 });

@@ -2,8 +2,9 @@ import { css } from 'lit-element';
 
 export default css`
   :host {
-    --primary-color: var(--cap-primary-color, #395D63);
-    --secondary-color: var(--cap-primary-color, #7DD4E8);
+    --primary-color: var(--cap-primary-color, #B9C800);
+    --primary-color-deep: var(--cap-primary-color-deep, #64A000);
+    --secondary-color: var(--cap-primary-color, #493c31);
     --grey-50: var(--cap-grey-50, #fafafa);
     --grey-100: var(--cap-grey-100, #f5f5f5);
     --grey-200: var(--cap-grey-200, #eee);
