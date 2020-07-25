@@ -31,7 +31,7 @@ export default create({
   inputTextColor: '#212121',
   inputBorderRadius: 4,
 
-  brandTitle: 'Cap Catalog',
+  brandTitle: 'Bankia Catalog',
   brandUrl: 'https://github.com/mmirca/cap-web-components',
-  brandImage: '/assets/logo-bankia.svg',
+  brandImage: './assets/logo-bankia.svg',
 });
